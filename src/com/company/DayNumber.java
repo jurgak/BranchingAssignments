@@ -14,7 +14,7 @@ public class DayNumber {
         Calendar cal = Calendar.getInstance();
         cal.set(Calendar.YEAR, year);
         cal.set(Calendar.DAY_OF_YEAR, dayNumber);
-        System.out.println("It is:" + cal.getDisplayName(Calendar.MONTH, Calendar.LONG, Locale.ENGLISH));
+        System.out.println("It is: " + cal.getDisplayName(Calendar.MONTH, Calendar.LONG, Locale.ENGLISH));
     }
 }
 
