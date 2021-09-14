@@ -26,6 +26,6 @@ public class CompareNumbers {
                 System.out.println("One number is below 100");
             }
         }
-
     }
+
 }
