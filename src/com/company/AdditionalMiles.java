@@ -14,7 +14,7 @@ public class AdditionalMiles {
         if (kilometersPerHour < 0) {
             return -1;
         } else {
-            return 1.60934 * kilometersPerHour;
+            return kilometersPerHour / 1.60934 ;
         }
 
     }
