@@ -5,11 +5,14 @@ public class AdditionalScore {
         displayHighScorePosition();
     }
     public static void displayHighScorePosition() {
-        String name = "name";
-        System.out.println(name + " managed to get position " + calculateHighScorePosition(1500) + " on the high score");
-        System.out.println(name + " managed to get position " + calculateHighScorePosition(900) + " on the high score");
-        System.out.println(name + " managed to get position " + calculateHighScorePosition(400) + " on the high score");
-        System.out.println(name + " managed to get position " + calculateHighScorePosition(50) + " on the high score");
+        String name1 = "John";
+        String name2 = "Peter";
+        String name3 = "Janis";
+        String name4 = "Peteris";
+        System.out.println(name1 + " managed to get position " + calculateHighScorePosition(1500) + " on the high score");
+        System.out.println(name2 + " managed to get position " + calculateHighScorePosition(900) + " on the high score");
+        System.out.println(name3 + " managed to get position " + calculateHighScorePosition(400) + " on the high score");
+        System.out.println(name4 + " managed to get position " + calculateHighScorePosition(50) + " on the high score");
     }
 
     public static int calculateHighScorePosition(int score) {
