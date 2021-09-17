@@ -1,18 +1,15 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class AdditionalScore {
     public static void main(String[] args){
         displayHighScorePosition();
     }
     public static void displayHighScorePosition() {
         String name = "name";
-        System.out.println("what's the score?");
-        Scanner input = new Scanner(System.in);
-        int score = input.nextInt();
-        int position = calculateHighScorePosition(score);
-        System.out.println(name + " managed to get position " + position + " on the high score");
+        System.out.println(name + " managed to get position " + calculateHighScorePosition(1500) + " on the high score");
+        System.out.println(name + " managed to get position " + calculateHighScorePosition(900) + " on the high score");
+        System.out.println(name + " managed to get position " + calculateHighScorePosition(400) + " on the high score");
+        System.out.println(name + " managed to get position " + calculateHighScorePosition(50) + " on the high score");
     }
 
     public static int calculateHighScorePosition(int score) {
