@@ -6,6 +6,7 @@ import java.util.Locale;
 
 public class DayNumber {
     public static void main(String[] args) {
+        // add validation for 365
         Scanner input = new Scanner(System.in);
         System.out.println("please write which year you are interested in");
         int year = input.nextInt();

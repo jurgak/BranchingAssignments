@@ -1,9 +1,10 @@
 package com.company;
 
 public class AdditionalScore {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         displayHighScorePosition();
     }
+
     public static void displayHighScorePosition() {
         String name1 = "John";
         String name2 = "Peter";
