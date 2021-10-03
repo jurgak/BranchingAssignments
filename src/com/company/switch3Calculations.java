@@ -5,15 +5,13 @@ import java.util.Scanner;
 public class switch3Calculations {
 
     public static void main(String[] args) {
-        Scanner input1 = new Scanner(System.in);
-        System.out.println("Enter first number:");
-        int number1 = input1.nextInt();
-        Scanner input2 = new Scanner(System.in);
-        System.out.println("Enter second number:");
-        int number2 = input2.nextInt();
         Scanner input = new Scanner(System.in);
-        int operation = selectOperator(input);
-        runOperation (number1, number2, (char) operation);
+        System.out.println("Enter first number:");
+        int number1 = input.nextInt();
+        System.out.println("Enter second number:");
+        int number2 = input.nextInt();
+        char operation = selectOperator(input);
+        runOperation (number1, number2, operation);
     }
 
     static void runOperation (int number1, int number2, char operation) {
@@ -25,7 +23,7 @@ public class switch3Calculations {
                 System.out.println(number1 + " - " + number2 + " = " + (number1-number2));
                 break;
             case '/':
-                System.out.println(number1 + " / " + number2 + " = " + (number1/number2));
+                System.out.println(number1 + " / " + number2 + " = " + ((double) number1 / (double) number2));
                 break;
             case '*':
                 System.out.println(number1 + " * " + number2 + " = " + (number1*number2));
